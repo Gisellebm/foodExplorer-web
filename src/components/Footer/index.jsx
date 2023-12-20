@@ -5,12 +5,12 @@ export function Footer() {
 
     return (
         <Container>
-            <main>
+            <footer>
                 <Brand>
-                    <img src={logo} alt="Logo" />
+                    <img src={logo} alt="Imagem de um polígono cinza" />
                 </Brand>
                 <p>© 2023 - Todos os direitos reservados.</p>
-            </main>
+            </footer>
         </Container>
     )
 }

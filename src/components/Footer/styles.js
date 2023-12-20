@@ -7,7 +7,7 @@ export const Container = styled.footer`
 
     background-color: ${({ theme }) => theme.COLORS.DARK_600};
 
-    > main {
+    > footer {
         width: 100%;
         height: 7.7rem;
         max-width: calc(100% - 24.6rem);
@@ -22,6 +22,8 @@ export const Container = styled.footer`
             font-size: 1.4rem;  
             line-height: 160%;
             font-family: ${({ theme }) => theme.FONTS.SECONDARY};
+            color: ${({ theme }) => theme.COLORS.LIGHT_200};
+            font-weight: 400;
         }
     }
 `
