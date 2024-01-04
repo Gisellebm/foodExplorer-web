@@ -23,7 +23,7 @@ export function Header({ isAdmin = false }) {
                 <Search>
                     <Input icon={BiSearch} placeholder="Busque por pratos ou ingredientes" type="search" />
                 </Search>
-                <Button icon={IconButton} className="receipt"  title={TitleButton} TitleButton type="button"  />
+                <Button icon={IconButton} title={TitleButton} className="receipt" type="button"  />
 
                 <Logout>
                     <FiLogOut />
@@ -34,5 +34,5 @@ export function Header({ isAdmin = false }) {
 }
 
 Header.propTypes = {
-    isAdmin: PropTypes.bool.isRequired,
+    isAdmin: PropTypes.bool,
 }
