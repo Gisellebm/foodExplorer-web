@@ -9,7 +9,7 @@ export const Container = styled.header`
 
     > main {
         width: 100%;
-        height: 9.6rem;
+        height: 10.4rem;
         max-width: calc(100% - 24.6rem);
         margin: 0 auto;
 
